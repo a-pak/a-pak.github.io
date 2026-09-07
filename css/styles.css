@@ -1,7 +1,7 @@
 /* Hero-kuva */
 #hero {
     height: 100vh;
-    background: url("/images/sunset-in-greece-mountains.jpg") no-repeat center center/cover;
+    background: url("../images/sunset-in-greece-mountains.jpg") no-repeat center center/cover;
     position: relative;
 }
 
