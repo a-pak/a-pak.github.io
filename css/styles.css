@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap");
 
 :root {
   --bg: #f4f1ec;
@@ -107,14 +107,14 @@ a {
   justify-content: flex-start;
   color: #fff;
   background: var(--hero-overlay),
-    url("/static/images/sunset-in-greece-mountains.jpg") center / cover no-repeat;
+    url("../images/sunset-in-greece-mountains.jpg") center / cover no-repeat;
   padding: calc(var(--nav-h) + 2rem) 1.25rem 4.5rem;
 }
 
 .page-hero {
   min-height: 52vh;
   background: var(--hero-overlay),
-    url("/static/images/acer.jpg") center / cover no-repeat;
+    url("../images/acer.jpg") center / cover no-repeat;
   padding-bottom: 3.5rem;
 }
 
@@ -238,7 +238,7 @@ a {
 }
 
 .section h2 {
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: "DM Serif Display", Georgia, serif;
   font-weight: 400;
   font-size: clamp(2rem, 4vw, 2.8rem);
   letter-spacing: -0.03em;
